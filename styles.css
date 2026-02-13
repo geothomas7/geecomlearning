@@ -1,0 +1,92 @@
+:root {
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary: #e2e8f0;
+  --secondary-hover: #cbd5e1;
+  --surface: #ffffff;
+  --border: #cbd5e1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.container {
+  width: min(720px, 92vw);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 4rem 0 3rem;
+}
+
+.hero-cta-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 0.65rem 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary {
+  color: #fff;
+  background: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-secondary {
+  color: var(--text);
+  background: var(--secondary);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-hover);
+}
+
+.contact {
+  padding: 0 0 4rem;
+}
+
+.turnaround {
+  margin: 0.5rem 0 1rem;
+}
+
+.inquiry-form {
+  display: grid;
+  gap: 0.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: 0.55rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--border);
+}
