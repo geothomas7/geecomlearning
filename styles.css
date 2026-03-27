@@ -51,6 +51,7 @@ img {
   z-index: 9999;
 }
 
+/* Header & Nav */
 .site-header {
   position: sticky;
   top: 0;
@@ -87,6 +88,7 @@ img {
   font-weight: 500;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   border-radius: 10px;
@@ -95,6 +97,12 @@ img {
   border: 1px solid transparent;
   font-weight: 600;
   cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-lg {
+  padding: 0.85rem 1.5rem;
+  font-size: 1.05rem;
 }
 
 .btn-primary {
@@ -115,11 +123,13 @@ img {
 .btn:focus-visible,
 a:focus-visible,
 input:focus-visible,
-textarea:focus-visible {
+textarea:focus-visible,
+select:focus-visible {
   outline: 3px solid var(--focus);
   outline-offset: 2px;
 }
 
+/* Hero */
 .hero {
   padding: 4.5rem 0 3.5rem;
 }
@@ -128,6 +138,13 @@ textarea:focus-visible {
   color: var(--primary-dark);
   font-weight: 700;
   margin: 0;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.eyebrow-light {
+  color: #5eead4;
 }
 
 h1 {
@@ -148,6 +165,7 @@ h1 {
   margin-top: 1.25rem;
 }
 
+/* Sections */
 .section {
   padding: 3rem 0;
 }
@@ -156,12 +174,25 @@ h1 {
   background: #f3f4f6;
 }
 
+.section-dark {
+  background: #0f172a;
+  color: #fff;
+}
+
+.section-intro {
+  color: var(--muted);
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 60ch;
+}
+
 h2 {
   font-size: clamp(1.4rem, 3vw, 2rem);
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
+/* Card Grid */
 .card-grid,
 .stats-grid,
 .proof-grid {
@@ -175,7 +206,7 @@ h2 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .card h3,
@@ -187,8 +218,89 @@ h2 {
 .stat span,
 .card p {
   color: var(--muted);
+  margin: 0;
 }
 
+/* Subscription Section */
+.subscription-intro {
+  color: #94a3b8;
+  max-width: 65ch;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.subscription-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.subscription-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.subscription-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+}
+
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.check-list li::before {
+  content: "\2713\0020";
+  color: #5eead4;
+  font-weight: 700;
+}
+
+.how-list {
+  padding-left: 1.2rem;
+  margin: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.how-list li {
+  color: #cbd5e1;
+}
+
+.how-list strong {
+  color: #fff;
+}
+
+.subscription-cta {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.subscription-price {
+  font-size: 1.3rem;
+  color: #e2e8f0;
+  margin-bottom: 1rem;
+}
+
+.subscription-price strong {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.subscription-note {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+/* Process */
 .process-steps {
   margin: 0;
   padding-left: 1.2rem;
@@ -205,11 +317,81 @@ h2 {
   display: block;
 }
 
+/* Proof */
 .subsection-title {
   margin-top: 1.8rem;
   margin-bottom: 0.7rem;
 }
 
+/* Portfolio items */
+.portfolio-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.portfolio-thumb {
+  height: 160px;
+  background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-thumb::after {
+  content: "Preview coming soon";
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.portfolio-item h4 {
+  margin: 0.75rem 1rem 0.25rem;
+  font-size: 1rem;
+}
+
+.portfolio-item p {
+  margin: 0 1rem 1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+/* Testimonials */
+.testimonial-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.testimonial {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.testimonial blockquote {
+  margin: 0 0 1rem;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.testimonial footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.testimonial footer strong {
+  font-size: 0.95rem;
+}
+
+.testimonial footer span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* Logo strip */
 .logo-strip {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -225,6 +407,7 @@ h2 {
   color: #64748b;
 }
 
+/* CTA Band */
 .cta-band {
   background: #0f172a;
   color: #fff;
@@ -243,11 +426,12 @@ h2 {
   color: #cbd5e1;
 }
 
+/* Contact Form */
 .contact-form {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 1rem;
+  padding: 1.25rem;
   max-width: 700px;
 }
 
@@ -258,11 +442,13 @@ h2 {
 }
 
 input,
-textarea {
+textarea,
+select {
   border: 1px solid #cbd5e1;
   border-radius: 10px;
   padding: 0.65rem 0.75rem;
   font: inherit;
+  background: #fff;
 }
 
 fieldset {
@@ -280,6 +466,20 @@ fieldset label {
   color: var(--muted);
 }
 
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* Responsive */
 @media (min-width: 760px) {
   .nav-links {
     display: flex;
@@ -290,8 +490,13 @@ fieldset label {
   }
 
   .stats-grid,
-  .proof-grid {
+  .proof-grid,
+  .testimonial-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .subscription-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .logo-strip {
