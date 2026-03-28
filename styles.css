@@ -444,6 +444,23 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
 }
 
 /* ═══════════════
+   SERVICE PRICING NOTE
+═══════════════ */
+.service-pricing-note {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1.5rem; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 1.5rem 2rem;
+  margin-top: 2rem;
+}
+.service-pricing-note-inner {
+  display: flex; align-items: flex-start; gap: .75rem; flex: 1;
+  color: var(--muted);
+}
+.service-pricing-note-inner svg { flex-shrink: 0; margin-top:.1rem; color: var(--gold); }
+.service-pricing-note-inner p { margin: 0; font-size: .95rem; }
+
+/* ═══════════════
    CTA BAND
 ═══════════════ */
 .cta-band { background: var(--navy); color: #fff; }
