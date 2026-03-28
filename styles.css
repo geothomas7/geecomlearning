@@ -60,7 +60,7 @@ p:last-child { margin-bottom: 0; }
   gap: 1rem; padding: .7rem 0;
 }
 .brand { display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
-.brand img { height: 60px; width: auto; }
+.brand img { height: 88px; width: auto; }
 
 .nav-links {
   list-style: none; padding: 0; margin: 0;
@@ -428,15 +428,20 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
 ═══════════════ */
 .logo-strip {
   display: flex; flex-wrap: wrap; justify-content: center;
-  gap: 1rem; align-items: center;
+  gap: 2.5rem; align-items: center;
 }
-.logo-chip {
-  background: var(--surface); border: 1px solid var(--line);
-  border-radius: 100px; padding: .55rem 1.4rem;
-  font-size: .9rem; font-weight: 600; color: var(--muted);
-  text-decoration: none; transition: border-color .15s, color .15s;
+.client-logo {
+  height: 44px; width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  filter: grayscale(1) opacity(0.55);
+  transition: filter .2s;
 }
-a.logo-chip:hover { border-color: var(--gold); color: var(--navy); }
+.client-logo:hover { filter: grayscale(0) opacity(1); }
+.client-logo-text {
+  font-size: .9rem; font-weight: 700; color: var(--muted);
+  letter-spacing: .04em; opacity: .55;
+}
 
 /* ═══════════════
    CTA BAND
