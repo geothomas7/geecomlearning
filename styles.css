@@ -360,6 +360,70 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
 .video-card .video-info p { font-size: .88rem; color: var(--muted); }
 
 /* ═══════════════
+   VIDEO OVERLAY SYSTEM
+═══════════════ */
+.video-wrapper {
+  position: relative; border-radius: var(--radius); overflow: hidden;
+  box-shadow: var(--shadow-lg); background: var(--navy);
+  border: 1px solid var(--line);
+}
+.video-embed {
+  position: relative; padding-bottom: 56.25%;
+  background: var(--navy); overflow: hidden;
+}
+.video-embed iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: none;
+}
+
+/* Intro splash (shown before play) */
+.video-intro {
+  position: relative; aspect-ratio: 16/9;
+  background: var(--navy);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 1rem; text-align: center; padding: 2rem;
+  cursor: pointer;
+}
+.video-intro::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
+}
+.video-intro > * { position: relative; z-index: 1; }
+.video-intro-logo img { height: 52px; width: auto; opacity: .9; }
+.video-intro-meta { max-width: 340px; }
+.video-intro-meta h3 { color: #fff; font-size: 1rem; margin-bottom: .3rem; }
+.video-intro-meta p { color: rgba(255,255,255,.55); font-size: .85rem; margin: 0; }
+
+.video-play-btn {
+  display: inline-flex; align-items: center; gap: .6rem;
+  background: var(--gold); color: var(--navy);
+  border: none; border-radius: 100px;
+  padding: .7rem 1.4rem; font-weight: 700; font-size: .9rem;
+  cursor: pointer; font-family: inherit;
+  transition: background .15s, transform .15s;
+  box-shadow: 0 4px 16px rgba(245,166,35,.35);
+}
+.video-play-btn:hover { background: var(--gold-dark); transform: scale(1.03); }
+.video-play-btn svg { flex-shrink: 0; }
+
+/* Snip overlay (shown after timed cutoff) */
+.video-snip {
+  display: none;
+  position: relative; aspect-ratio: 16/9;
+  background: var(--navy-dark);
+  flex-direction: column; align-items: center; justify-content: center;
+  gap: 1.25rem; text-align: center; padding: 2rem;
+}
+.video-snip img { height: 48px; width: auto; opacity: .85; }
+.video-snip h3 { color: #fff; margin: 0; font-size: 1.1rem; }
+.video-snip p { color: rgba(255,255,255,.6); font-size: .9rem; margin: 0; max-width: 280px; }
+
+.video-info { padding: 1.1rem 1.25rem; background: var(--surface); }
+.video-info h3 { margin-bottom: .25rem; font-size: 1rem; }
+.video-info p { font-size: .88rem; color: var(--muted); }
+
+/* ═══════════════
    CLIENT LOGOS
 ═══════════════ */
 .logo-strip {
@@ -370,7 +434,9 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
   background: var(--surface); border: 1px solid var(--line);
   border-radius: 100px; padding: .55rem 1.4rem;
   font-size: .9rem; font-weight: 600; color: var(--muted);
+  text-decoration: none; transition: border-color .15s, color .15s;
 }
+a.logo-chip:hover { border-color: var(--gold); color: var(--navy); }
 
 /* ═══════════════
    CTA BAND
