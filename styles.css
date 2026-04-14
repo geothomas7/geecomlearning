@@ -342,54 +342,44 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
   display: grid; gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.video-card {
-  border-radius: var(--radius); overflow: hidden;
-  box-shadow: var(--shadow-lg); background: var(--surface);
-  border: 1px solid var(--line);
-}
-.video-card .video-embed {
-  position: relative; padding-bottom: 56.25%;
-  background: var(--navy); overflow: hidden;
-}
-.video-card .video-embed iframe {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  border: none;
-}
-.video-card .video-info { padding: 1.1rem 1.25rem; }
-.video-card .video-info h3 { margin-bottom: .25rem; font-size: 1rem; }
-.video-card .video-info p { font-size: .88rem; color: var(--muted); }
 
 /* ═══════════════
    VIDEO OVERLAY SYSTEM
 ═══════════════ */
 .video-wrapper {
-  position: relative; border-radius: var(--radius); overflow: hidden;
-  box-shadow: var(--shadow-lg); background: var(--navy);
+  border-radius: var(--radius); overflow: hidden;
+  box-shadow: var(--shadow-lg); background: var(--surface);
   border: 1px solid var(--line);
 }
-.video-embed {
-  position: relative; padding-bottom: 56.25%;
-  background: var(--navy); overflow: hidden;
-}
-.video-embed iframe {
-  position: absolute; inset: 0; width: 100%; height: 100%; border: none;
+
+/* 16:9 stage — iframe + overlays all stack inside here */
+.video-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--navy);
+  overflow: hidden;
 }
 
-/* Intro splash (shown before play) */
-.video-intro {
-  position: relative; aspect-ratio: 16/9;
+/* iframe fills the stage behind all overlays */
+.video-stage iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; border: none;
   background: var(--navy);
+}
+
+/* Both intro and snip share this overlay base */
+.video-overlay {
+  position: absolute; inset: 0; z-index: 2;
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
   gap: 1rem; text-align: center; padding: 2rem;
+}
+
+/* Intro splash (default visible) */
+.video-overlay:not(.video-snip) {
+  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
   cursor: pointer;
 }
-.video-intro::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
-}
-.video-intro > * { position: relative; z-index: 1; }
 .video-intro-logo img { height: 52px; width: auto; opacity: .9; }
 .video-intro-meta { max-width: 340px; }
 .video-intro-meta h3 { color: #fff; font-size: 1rem; margin-bottom: .3rem; }
@@ -409,17 +399,14 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
 
 /* Snip overlay (shown after timed cutoff) */
 .video-snip {
-  display: none;
-  position: relative; aspect-ratio: 16/9;
   background: var(--navy-dark);
-  flex-direction: column; align-items: center; justify-content: center;
-  gap: 1.25rem; text-align: center; padding: 2rem;
+  gap: 1.25rem;
 }
 .video-snip img { height: 48px; width: auto; opacity: .85; }
 .video-snip h3 { color: #fff; margin: 0; font-size: 1.1rem; }
 .video-snip p { color: rgba(255,255,255,.6); font-size: .9rem; margin: 0; max-width: 280px; }
 
-.video-info { padding: 1.1rem 1.25rem; background: var(--surface); }
+.video-info { padding: 1.1rem 1.25rem; }
 .video-info h3 { margin-bottom: .25rem; font-size: 1rem; }
 .video-info p { font-size: .88rem; color: var(--muted); }
 
