@@ -342,44 +342,27 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
   display: grid; gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
-/* ═══════════════
-   VIDEO OVERLAY SYSTEM
-═══════════════ */
 .video-wrapper {
   border-radius: var(--radius); overflow: hidden;
   box-shadow: var(--shadow-lg); background: var(--surface);
   border: 1px solid var(--line);
 }
 
-/* 16:9 stage — iframe + overlays all stack inside here */
-.video-stage {
-  position: relative;
-  aspect-ratio: 16 / 9;
+/* Intro splash — shown before the user clicks play */
+.video-intro {
+  position: relative; aspect-ratio: 16/9;
   background: var(--navy);
-  overflow: hidden;
-}
-
-/* iframe fills the stage behind all overlays */
-.video-stage iframe {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%; border: none;
-  background: var(--navy);
-}
-
-/* Both intro and snip share this overlay base */
-.video-overlay {
-  position: absolute; inset: 0; z-index: 2;
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
   gap: 1rem; text-align: center; padding: 2rem;
-}
-
-/* Intro splash (default visible) */
-.video-overlay:not(.video-snip) {
-  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
   cursor: pointer;
 }
+.video-intro::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
+}
+.video-intro > * { position: relative; z-index: 1; }
 .video-intro-logo img { height: 52px; width: auto; opacity: .9; }
 .video-intro-meta { max-width: 340px; }
 .video-intro-meta h3 { color: #fff; font-size: 1rem; margin-bottom: .3rem; }
@@ -397,10 +380,22 @@ h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .5rem; color: var(--navy)
 .video-play-btn:hover { background: var(--gold-dark); transform: scale(1.03); }
 .video-play-btn svg { flex-shrink: 0; }
 
-/* Snip overlay (shown after timed cutoff) */
+/* Video embed — hidden until play is clicked */
+.video-embed {
+  position: relative; padding-bottom: 56.25%;
+  background: var(--navy); overflow: hidden;
+}
+.video-embed iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: none;
+}
+
+/* Snip / CTA overlay — shown after timed cutoff or on error */
 .video-snip {
+  position: relative; aspect-ratio: 16/9;
   background: var(--navy-dark);
-  gap: 1.25rem;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 1.25rem; text-align: center; padding: 2rem;
 }
 .video-snip img { height: 48px; width: auto; opacity: .85; }
 .video-snip h3 { color: #fff; margin: 0; font-size: 1.1rem; }
