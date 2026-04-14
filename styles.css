@@ -533,6 +533,49 @@ fieldset input[type="radio"] { width: auto; accent-color: var(--gold-dark); }
 .page-hero p { color: var(--muted); max-width: 56ch; margin-bottom: 0; }
 
 /* ═══════════════
+   ABOUT PAGE
+═══════════════ */
+.about-body {
+  max-width: 72ch;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.about-block h2 {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+.about-block p {
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: .75rem;
+}
+.about-block p:last-child { margin-bottom: 0; }
+.about-cta {
+  background: var(--navy);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  text-align: center;
+}
+.about-cta h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+}
+.about-cta p {
+  color: rgba(255,255,255,.65);
+  margin-bottom: 1.5rem;
+}
+.about-cta-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ═══════════════
    FOOTER
 ═══════════════ */
 .site-footer {

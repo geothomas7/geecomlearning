@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Geecom Learning</title>
+  <meta name="description" content="Geecom Learning exists to be the Learning and Development team you don't have. Founded by workplace education professionals who've spent years building certification programs and training standards." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="index.html" class="brand">
+        <img src="assets/logo-transparent-cropped.png" alt="Geecom Learning" />
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn-primary" href="contact.html">Get started</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="19" y2="6"/><line x1="3" y1="12" x2="19" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/>
+        </svg>
+      </button>
+    </nav>
+    <nav id="mobile-menu" class="mobile-menu container" aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="process.html">Process</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-primary" href="contact.html">Get started</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-label">Our story</span>
+        <h1>About Geecom Learning</h1>
+        <p>Founded by people who've spent years inside workplace education, doing the work, not selling software.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="about-body">
+
+          <div class="about-block">
+            <h2>The L&amp;D team you don't have</h2>
+            <p>You know your team needs better training. But you don't have a Learning and Development (L&amp;D) department, and hiring one isn't in the budget. So it falls on Operations, or Human Resources, or whoever draws the short straw, and the project stalls.</p>
+            <p>Geecom Learning exists to be the L&amp;D team you don't have. Whether you need a single bespoke course built from scratch or an ongoing training partner on a flat monthly fee, we bring the instructional design, production, and technical setup so you can get training out the door without building an internal department to do it.</p>
+          </div>
+
+          <div class="about-block">
+            <h2>Founded on experience, not software</h2>
+            <p>We're founded by people who've spent years inside workplace education, building certification programs, writing training standards, and auditing providers. Not selling software. Actually doing the work.</p>
+          </div>
+
+          <div class="about-block">
+            <h2>Outcomes first, always</h2>
+            <p>Everything we build is outcomes based. Every course, module, and video is designed so learners walk away with something measurable, whether that's a new competence they can apply on the job, a deeper awareness of risk and responsibility, or the foundational knowledge they need to perform safely and effectively. That's what shapes our process from day one: training that actually changes what people know and what they can do.</p>
+          </div>
+
+          <div class="about-cta">
+            <h3>Ready to get training out the door?</h3>
+            <p>Book a free call and we'll show you exactly how we'd approach your project.</p>
+            <div class="about-cta-btns">
+              <a class="btn btn-primary btn-lg" href="contact.html">Book a free call</a>
+              <a class="btn btn-outline btn-lg" href="pricing.html">See plans</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo-transparent-cropped.png" alt="Geecom Learning logo" />
+          <div class="footer-brand-name">GEECOM<span>Learning</span></div>
+        </div>
+        <div class="footer-columns">
+          <nav class="footer-nav-col" aria-label="Site pages">
+            <p class="footer-col-head">Navigation</p>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="process.html">Process</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html" class="active">About</a>
+          </nav>
+          <nav class="footer-nav-col" aria-label="Legal and contact">
+            <p class="footer-col-head">Contact &amp; Legal</p>
+            <a href="mailto:hello@geecomlearning.com">hello@geecomlearning.com</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms and Conditions</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Geecom Learning. All rights reserved. Vancouver, British Columbia, Canada.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('mobile-menu');
+    toggle.addEventListener('click', function () {
+      const open = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!open));
+      menu.classList.toggle('open', !open);
+      this.innerHTML = !open
+        ? `<svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`
+        : `<svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="19" y2="6"/><line x1="3" y1="12" x2="19" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/></svg>`;
+    });
+  </script>
+</body>
+</html>
