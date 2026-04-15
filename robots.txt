@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geecomlearning.com/sitemap.xml
