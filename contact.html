@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src 'none'; base-uri 'self';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
   <title>Contact | Geecom Learning</title>
   <meta name="description" content="Start a project with Geecom Learning. Tell us about your training needs and we'll get back to you with clear next steps." />
   <link rel="stylesheet" href="styles.css" />
@@ -214,18 +217,30 @@
       e.preventDefault();
       const data = new FormData(form);
 
+      // Basic validation
+      const name = (data.get('name') || '').trim();
+      const email = (data.get('email') || '').trim();
+      const trainingType = data.get('trainingType') || '';
+
+      if (!name) { document.getElementById('name').focus(); return; }
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { document.getElementById('email').focus(); return; }
+      if (!trainingType) { document.getElementById('trainingType').focus(); return; }
+
+      // Limit field lengths to prevent abuse
+      const sanitize = function(str, max) { return String(str || '').substring(0, max); };
+
       const body = [
-        `Name: ${data.get('name') || ''}`,
-        `Email: ${data.get('email') || ''}`,
-        `Training type: ${data.get('trainingType') || ''}`,
-        `Audience size: ${data.get('audienceSize') || ''}`,
-        `Timeline: ${data.get('timeline') || ''}`,
-        `Notes: ${data.get('notes') || ''}`
+        'Name: ' + sanitize(name, 200),
+        'Email: ' + sanitize(email, 254),
+        'Training type: ' + sanitize(trainingType, 100),
+        'Audience size: ' + sanitize(data.get('audienceSize'), 100),
+        'Timeline: ' + sanitize(data.get('timeline'), 100),
+        'Notes: ' + sanitize(data.get('notes'), 2000)
       ].join('\n');
 
       const subject = encodeURIComponent('Project Inquiry – Geecom Learning');
       const encodedBody = encodeURIComponent(body);
-      window.location.href = `mailto:hello@geecomlearning.com?subject=${subject}&body=${encodedBody}`;
+      window.location.href = 'mailto:hello@geecomlearning.com?subject=' + subject + '&body=' + encodedBody;
 
       // Show success message
       success.style.display = 'block';
