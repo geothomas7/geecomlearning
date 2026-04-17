@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="assets/logo-icon-cropped.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Geecom Learning</title>
   <meta name="description" content="Start a project with Geecom Learning. Tell us about your training needs and we'll get back to you with clear next steps." />
@@ -103,7 +104,7 @@
                   <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
                 </div>
                 <div>
-                  <strong style="display:block; margin-bottom:.25rem;">We work across North America</strong>
+                  <strong style="display:block; margin-bottom:.25rem;">We work remotely</strong>
                   <span style="color:var(--muted); font-size:.95rem;">Remote-first by design, no location requirements.</span>
                 </div>
               </div>
@@ -117,6 +118,10 @@
                 Thanks! We received your inquiry and will be in touch within one business day.
               </div>
               <form id="inquiry-form" novalidate>
+                <!-- Web3Forms access key — replace YOUR_ACCESS_KEY with the key from https://web3forms.com -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY" />
+                <input type="hidden" name="subject" value="Project Inquiry – Geecom Learning" />
+                <input type="hidden" name="from_name" value="Geecom Learning Website" />
 
                 <div class="form-row">
                   <label for="name">Your name</label>
@@ -228,31 +233,38 @@
         : `<svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="19" y2="6"/><line x1="3" y1="12" x2="19" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/></svg>`;
     });
 
-    // Form submission
+    // Form submission via Web3Forms
     const form = document.getElementById('inquiry-form');
     const success = document.getElementById('form-success');
+    const submitBtn = form.querySelector('[type="submit"]');
 
-    form.addEventListener('submit', function(e) {
+    form.addEventListener('submit', async function(e) {
       e.preventDefault();
-      const data = new FormData(form);
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
 
-      const body = [
-        `Name: ${data.get('name') || ''}`,
-        `Email: ${data.get('email') || ''}`,
-        `Training type: ${data.get('trainingType') || ''}`,
-        `Audience size: ${data.get('audienceSize') || ''}`,
-        `Timeline: ${data.get('timeline') || ''}`,
-        `Notes: ${data.get('notes') || ''}`
-      ].join('\n');
+      const payload = Object.fromEntries(new FormData(form));
 
-      const subject = encodeURIComponent('Project Inquiry – Geecom Learning');
-      const encodedBody = encodeURIComponent(body);
-      window.location.href = `mailto:hello@geecomlearning.com?subject=${subject}&body=${encodedBody}`;
-
-      // Show success message
-      success.style.display = 'block';
-      form.reset();
-      success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const json = await res.json();
+        if (json.success) {
+          success.style.display = 'block';
+          form.reset();
+          success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          throw new Error(json.message || 'Submission failed');
+        }
+      } catch (err) {
+        alert('Sorry, something went wrong. Please email us directly at hello@geecomlearning.com');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send inquiry';
+      }
     });
   </script>
 </body>
