@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "GyiKRji84BTXMzSqeDOKc"
+uri = "file://prospect-list.csv"
+type = "table"
+title = "Prospect List — 40 North American SMBs (Compliance-Heavy)"
+
+[[outputs]]
+id = "uSSYP39jTaNwqDUWiFUaQ"
+uri = "file://cold-email-sequence.md"
+type = "text"
+title = "4-Email Cold Outreach Sequence — Geecom Learning"
