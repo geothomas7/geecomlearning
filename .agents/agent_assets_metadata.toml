@@ -12,3 +12,9 @@ id = "uSSYP39jTaNwqDUWiFUaQ"
 uri = "file://cold-email-sequence.md"
 type = "text"
 title = "4-Email Cold Outreach Sequence — Geecom Learning"
+
+[[outputs]]
+id = "uk7OH2EOiyFyj-u2U62dN"
+uri = "file://geecom-crm.csv"
+type = "table"
+title = "Geecom Learning — Prospect CRM (Google Sheets ready)"
