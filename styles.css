@@ -1176,3 +1176,47 @@ a.resource-card-link:hover {
   font-weight: 800; font-size: 1rem;
 }
 .process-step-inline p { margin: .25rem 0 0; color: var(--muted); font-size: .95rem; }
+
+/* ═══════════════════════════════════════════════════════════
+   ARTICLE STATS BLOCK (GEO — authority signals)
+═══════════════════════════════════════════════════════════ */
+.article-stats {
+  list-style: none;
+  padding: 1.25rem 1.5rem;
+  background: var(--surface-alt);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0 2rem;
+  display: flex; flex-direction: column; gap: .65rem;
+}
+.article-stats li {
+  font-size: .93rem;
+  color: var(--text);
+  line-height: 1.55;
+  padding-left: 1.25rem;
+  position: relative;
+}
+.article-stats li::before {
+  content: '→';
+  position: absolute; left: 0;
+  color: var(--gold); font-weight: 700;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ARTICLE FAQ SECTION
+═══════════════════════════════════════════════════════════ */
+.article-faq {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+.article-faq h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-updated {
+  font-size: .78rem;
+  color: var(--muted);
+  margin-top: .4rem;
+}

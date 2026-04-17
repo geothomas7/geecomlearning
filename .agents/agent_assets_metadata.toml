@@ -18,3 +18,9 @@ id = "uk7OH2EOiyFyj-u2U62dN"
 uri = "file://geecom-crm.csv"
 type = "table"
 title = "Geecom Learning — Prospect CRM (Google Sheets ready)"
+
+[[outputs]]
+id = "bIU1xswKWOATFDPJKyjRq"
+uri = "file://.local/geecom-geo-audit-2026.pdf"
+type = "pdf"
+title = "Geecom Learning GEO Audit Report — April 2026"
