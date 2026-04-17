@@ -23,7 +23,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://geecomlearning.com/#org","name":"Geecom Learning","url":"https://geecomlearning.com","logo":"https://geecomlearning.com/assets/logo-transparent-cropped.png","sameAs":["https://www.linkedin.com/company/geecom-learning"]},{"@type":"Service","name":"Compliance and Safety Training Development","provider":{"@id":"https://geecomlearning.com/#org"},"description":"Compliance training programs for regulated industries. Documented, defensible, SCORM-ready with tracked completion for audit evidence.","areaServed":{"@type":"Country","name":"Canada"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does compliance training need to be SCORM?","acceptedAnswer":{"@type":"Answer","text":"Not always, but SCORM tracking is the most reliable way to generate completion evidence for audits. If your LMS supports SCORM, we recommend it. If you don't have an LMS, we can help you find a low-cost platform or deliver completion records another way."}},{"@type":"Question","name":"How do you handle regulatory updates?","acceptedAnswer":{"@type":"Answer","text":"We build compliance programs with updates in mind. For content tied to legislation or standards that change regularly, we design the module architecture so affected sections can be updated without re-building the whole course. We can also provide ongoing maintenance support as part of a retainer."}},{"@type":"Question","name":"Can you include a scored assessment?","acceptedAnswer":{"@type":"Answer","text":"Yes. A scored assessment with a minimum pass mark is standard in most compliance programs. We design the questions to test genuine understanding of the material — not recall of trivia — and we can include multiple attempts and remediation pathways where appropriate."}},{"@type":"Question","name":"What industries do you have experience in?","acceptedAnswer":{"@type":"Answer","text":"We have built compliance programs for construction and safety, financial services, healthcare support, manufacturing, municipal and government, professional associations, and utilities. Each industry has its own regulatory context and documentation expectations, and we've worked within all of them."}}]}]}</script>
 </head>
 <body>
@@ -259,6 +259,18 @@
           </nav>
         </div>
       </div>
+      <div class="footer-newsletter">
+        <p class="footer-col-head">Stay in the loop</p>
+        <form class="footer-newsletter-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="03b3a751-a45a-416a-86d1-c461a026103c" />
+          <input type="hidden" name="subject" value="Newsletter Signup - Geecom Learning" />
+          <input type="hidden" name="redirect" value="false" />
+          <input type="email" name="email" placeholder="Your work email" required autocomplete="email" />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="footer-newsletter-note">No spam. Unsubscribe any time.</p>
+        <p class="footer-newsletter-success" style="display:none;">You're in. Watch your inbox.</p>
+      </div>
       <div class="footer-bottom">
         <p>© 2026 Geecom Learning. All rights reserved. Vancouver, British Columbia, Canada.</p>
       </div>
@@ -277,5 +289,6 @@
         : `<svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="19" y2="6"/><line x1="3" y1="12" x2="19" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/></svg>`;
     });
   </script>
+  <script src="newsletter.js"></script>
 </body>
 </html>

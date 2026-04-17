@@ -23,7 +23,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://geecomlearning.com/#org","name":"Geecom Learning","url":"https://geecomlearning.com","logo":"https://geecomlearning.com/assets/logo-transparent-cropped.png","sameAs":["https://www.linkedin.com/company/geecom-learning"],"address":{"@type":"PostalAddress","addressLocality":"Vancouver","addressRegion":"BC","addressCountry":"CA"}},{"@type":"WebSite","@id":"https://geecomlearning.com/#website","url":"https://geecomlearning.com","name":"Geecom Learning","publisher":{"@id":"https://geecomlearning.com/#org"}}]}</script>
 </head>
 <body>
@@ -364,6 +364,27 @@
       </div>
     </section>
 
+    <!-- Newsletter Band -->
+    <section class="newsletter-band">
+      <div class="container newsletter-band-inner">
+        <div class="newsletter-band-copy">
+          <h2>Practical L&amp;D guides, in your inbox</h2>
+          <p>Plain-language articles on training, compliance, and workplace learning — no sales pitch, no filler. Occasional, useful, unsubscribe any time.</p>
+        </div>
+        <div>
+          <form class="newsletter-form" id="nl-form-home" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="03b3a751-a45a-416a-86d1-c461a026103c" />
+            <input type="hidden" name="subject" value="Newsletter Signup – Geecom Learning" />
+            <input type="hidden" name="redirect" value="false" />
+            <input type="email" name="email" placeholder="Your work email" required autocomplete="email" />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="newsletter-success" id="nl-success-home">You're in. Watch your inbox.</p>
+          <p class="newsletter-note">No spam. Unsubscribe any time.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
 
     <footer class="site-footer">
@@ -392,6 +413,18 @@
             <a href="https://www.linkedin.com/company/geecom-learning" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </nav>
         </div>
+      </div>
+      <div class="footer-newsletter">
+        <p class="footer-col-head">Stay in the loop</p>
+        <form class="footer-newsletter-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="03b3a751-a45a-416a-86d1-c461a026103c" />
+          <input type="hidden" name="subject" value="Newsletter Signup - Geecom Learning" />
+          <input type="hidden" name="redirect" value="false" />
+          <input type="email" name="email" placeholder="Your work email" required autocomplete="email" />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="footer-newsletter-note">No spam. Unsubscribe any time.</p>
+        <p class="footer-newsletter-success" style="display:none;">You're in. Watch your inbox.</p>
       </div>
       <div class="footer-bottom">
         <p>© 2026 Geecom Learning. All rights reserved. Vancouver, British Columbia, Canada.</p>
@@ -464,5 +497,6 @@
       });
     });
   </script>
+  <script src="newsletter.js"></script>
 </body>
 </html>
