@@ -1,5 +1,7 @@
-# Geecom Learning — Full Marketing Strategy
+# Geecom Learning — Full Marketing Strategy (Honest Version)
 *April 2026 | geecomlearning.com*
+
+> **Note on this version:** All content here is written without fabricated client stories, invented quotes, or claimed experience we don't yet have. Posts and emails are grounded in observable patterns, published research, and genuine expertise — not testimonials or anecdotes we can't stand behind.
 
 ---
 
@@ -95,11 +97,11 @@ Softer posts that open a conversation. A question to the audience. A behind-the-
 
 ---
 
-A manager we know ran a tight ship. Meetings on time. Decisions fast. Every deadline met.
+Picture a manager running a tight ship. Meetings on time. Decisions fast. Every deadline met.
 
-He also had a turnover problem he couldn't explain.
+Also: a turnover problem they can't explain.
 
-Exit interview after exit interview said the same thing: people didn't feel safe raising concerns. Not because he was unkind — because he was certain. Raising a different view felt pointless.
+Exit interview after exit interview says the same thing — people didn't feel safe raising concerns. Not because the manager was unkind. Because they were certain. Raising a different view felt pointless.
 
 Psychological safety isn't about being gentle. It's about creating conditions where people can disagree, admit mistakes, and ask questions without expecting consequences.
 
@@ -113,8 +115,6 @@ What does your workplace do well — or poorly — around psychological safety?
 
 #PsychologicalSafety #WorkplaceWellness #Leadership #HRLeaders #L&D
 
-*~991 characters*
-
 ---
 
 ### Post 2 — Mental Health at Worksites
@@ -123,7 +123,7 @@ What does your workplace do well — or poorly — around psychological safety?
 
 ---
 
-A supervisor told us: "We have toolbox talks for slips and falls. We have nothing for the guy drowning in debt working 14-hour shifts."
+Toolbox talks cover slips, falls, and pinch points. They rarely cover the worker drowning in debt working 14-hour shifts.
 
 Construction workers have one of the highest suicide rates of any trade. The work is demanding, schedules are gruelling, and the culture around asking for help has been — to put it plainly — hostile.
 
@@ -133,15 +133,13 @@ Not because an EAP poster fixes anything. Because supervisors trained to have a 
 
 These aren't soft interventions. They are operational decisions.
 
-The employers we work with in trades are starting to treat mental health the same way they treat physical safety: as a risk management issue.
+The employers getting this right are starting to treat mental health the same way they treat physical safety: as a risk management issue.
 
 Because it is.
 
 What does your workplace do when someone on site is visibly not okay?
 
 #MentalHealthAtWork #WorkplaceSafety #Construction #HRManagers #EmployerObligations
-
-*~990 characters*
 
 ---
 
@@ -155,7 +153,7 @@ Most workers in Canada have a legal right to refuse unsafe work.
 
 Most have no idea how to use it, what counts as "unsafe," or what happens next if they do.
 
-We've spoken with HR managers who discovered this gap the hard way — an incident happened, someone asked why no one spoke up, and the honest answer was: people didn't think they could.
+This gap surfaces in the worst way. An incident happens. Someone asks why no one spoke up. The honest answer: people didn't think they could.
 
 The right to refuse is in OHS legislation across every province. But legislation doesn't change behaviour. Training does.
 
@@ -170,8 +168,6 @@ The employers who take this seriously don't frame it as a liability. They frame 
 Does your team know when they can stop work — and what to do next?
 
 #WorkplaceSafety #EmployeeRights #OHS #HR #ComplianceTraining
-
-*~959 characters*
 
 ---
 
@@ -203,8 +199,6 @@ What would make compliance training worth your team's time?
 
 #ComplianceTraining #WorkplaceTraining #eLearning #HR #LearningAndDevelopment
 
-*~991 characters*
-
 ---
 
 ### Post 5 — The Cost of Bad Onboarding
@@ -225,13 +219,11 @@ The research is consistent. Companies with strong structured onboarding improve 
 
 Not a stack of PDFs. Not a week of shadow shifts with no debrief.
 
-The organisations that fixed their onboarding tell us the same thing afterward: they didn't realise how much the old approach was costing them until they saw what a good one produced.
+Organisations that have fixed their onboarding describe the same realisation: they didn't know how much the old approach was costing them until they saw what a good one produced.
 
 What was the best onboarding you've experienced — as a new hire or as someone who built the programme?
 
 #Onboarding #EmployeeRetention #HR #WorkplaceTraining #PeopleOperations
-
-*~998 characters*
 
 ---
 
@@ -260,8 +252,6 @@ If you're running a retention problem through HR levers and not moving the numbe
 Is turnover costing your organisation more than your training budget?
 
 #EmployeeRetention #L&D #HRStrategy #WorkplaceTraining #PeopleDevelopment
-
-*~991 characters*
 
 ---
 
@@ -292,8 +282,6 @@ What does your team currently use for reinforcement after initial training?
 
 #Microlearning #eLearning #WorkplaceTraining #L&D #LearningDesign
 
-*~997 characters*
-
 ---
 
 ### Post 8 — Why Outsource L&D
@@ -319,8 +307,6 @@ For organisations making 3–5 modules a year, outsourcing almost always wins wh
 Have you done the full cost calculation of your current approach?
 
 #LearningAndDevelopment #OutsourcingL&D #HRStrategy #eLearning #SMB
-
-*~988 characters*
 
 ---
 
@@ -399,21 +385,23 @@ Vancouver, British Columbia, Canada
 
 Hi [First Name],
 
-A client came to us last year with a turnover problem. People were leaving at the 12-month mark, consistently. Exit interviews were vague. Engagement scores were average. Nothing in the data pointed clearly at a cause.
+Here is a pattern that shows up in organisations more often than most realise.
 
-When we mapped their employee journey, the issue was right at the start.
+Turnover is high at the 12-month mark. Exit interviews are vague. Engagement scores are average. Nothing in the data points clearly at a cause.
 
-Their onboarding was technically complete — there were forms, a welcome lunch, an introduction to the team, and a handover to the manager. What it didn't have was structure. New hires were left to figure out most of the job by observation and trial, which meant their first 90 days were primarily a confidence-eroding experience.
+Map the employee journey and the issue is almost always right at the start.
 
-By month twelve, they had decided whether they were going to stay — and many of them had quietly decided they weren't.
+Onboarding is technically complete — there are forms, a welcome lunch, an introduction to the team, and a handover to the manager. What it doesn't have is structure. New hires are left to figure out most of the job by observation and trial, which means their first 90 days are primarily a confidence-eroding experience.
 
-This is a more common pattern than most organisations realise. People don't leave jobs, they leave the feeling that the job was a mistake. And that feeling usually forms in the first quarter.
+By month twelve, they have decided whether they are going to stay. Many have quietly decided they aren't.
+
+People don't leave jobs — they leave the feeling that the job was a mistake. And that feeling usually forms in the first quarter.
 
 **What actually helps:**
 
 Role-specific onboarding content that answers the questions new hires are actually asking, not the ones HR assumes they're asking. Short, focused training on the context that matters for their specific role — not a two-hour all-hands about company history.
 
-We have seen organisations reduce 12-month turnover by 20–30% simply by building structured onboarding that goes beyond the first week.
+Research from Brandon Hall Group found that organisations with structured onboarding improve new hire retention by 82% and productivity by over 70%.
 
 **This month's resource:** [The Real Cost of Poor Onboarding — geecomlearning.com/resources]
 
@@ -433,11 +421,11 @@ Geecom Learning
 
 Hi [First Name],
 
-There is a compliance training failure mode we see regularly: the completion rate is 92%, the records are clean, and then an incident happens that the training was supposed to prevent.
+There is a compliance training failure mode that shows up consistently across industries: the completion rate is 92%, the records are clean, and then an incident happens that the training was supposed to prevent.
 
 This is not a documentation problem. It is a design problem.
 
-Compliance training built to generate a certificate is a different brief from compliance training built to change behaviour in a specific situation. Most organisations are commissioning the first one while hoping for the second.
+Compliance training built to generate a certificate is a different brief from compliance training built to change behaviour in a specific situation. Most organisations commission the first one while hoping for the second.
 
 The design difference is not subtle:
 
@@ -469,11 +457,9 @@ Geecom Learning
 
 Hi [First Name],
 
-We ran an informal comparison for a client last year. They had a 45-minute annual health and safety refresher that everyone completed in January and promptly forgot by March.
+Here is a comparison worth sitting with. Take a 45-minute annual health and safety refresher that everyone completes in January and promptly forgets by March. Now rebuild it as six 5-minute modules delivered across six months — each covering one scenario from the original course. Same content. Different delivery.
 
-We rebuilt it as six 5-minute modules, delivered across six months. Each module covered one scenario from the original course. Same content. Different delivery.
-
-Assessment scores at month six were 40% higher than the previous year. Manager-reported incidents of unsafe behaviour dropped.
+Research on spaced repetition consistently shows that knowledge retention is significantly higher when content is distributed over time rather than delivered in one session. This isn't a new finding — it's been established in cognitive science for decades. The challenge is that most training is still designed for administrative convenience, not for how memory actually works.
 
 This is not magic. It is how memory works.
 
@@ -523,7 +509,7 @@ Noticed [Company] has been growing quickly — [personalised trigger: e.g., "you
 
 We make short compliance and onboarding training videos for [industry] teams — the kind that actually get watched, and that you can track and certify.
 
-Most of our clients were relying on PDFs or in-person sessions before working with us. The switch usually takes 4–6 weeks and covers [HIPAA + OSHA / FINRA / OSHA 10] across your whole team.
+Most organisations in this space are still relying on PDFs or in-person sessions. The switch to trackable, video-based modules typically takes 4–6 weeks and covers [HIPAA + OSHA / FINRA / OSHA 10] across your whole team.
 
 Is this on your radar, or not a priority right now?
 
@@ -546,7 +532,7 @@ Hi [First Name],
 
 Just wanted to make sure this didn't get buried.
 
-We typically work with [healthcare groups / financial advisory firms / construction companies] in the 50–500 employee range — teams that have a real compliance obligation but no internal L&D team to manage it.
+We work with [healthcare groups / financial advisory firms / construction companies] in the 50–500 employee range — teams that have a real compliance obligation but no internal L&D team to manage it.
 
 If the timing is off, no problem at all. Happy to check back in a few months.
 
@@ -568,16 +554,16 @@ Hi [First Name],
 
 Whether we end up working together or not, thought this might be useful:
 
-The most common compliance training failure we see in [industry] is completion rates — not the content itself. Staff watch once, the record gets lost, and when a regulator asks for documentation, nobody can produce it.
+The most common compliance training failure in [industry] is completion record-keeping — not the content itself. Staff complete a module, the record gets lost, and when a regulator asks for documentation, nobody can produce it.
 
 We build every module with a completion certificate and audit trail built in — so if you're ever inspected, you can pull the record for any employee in under a minute.
 
-If you'd like to see a sample from a [healthcare / financial / construction] client, we're happy to share one. No pitch attached.
+If you'd like to see how that looks, we're happy to walk you through a sample build. No pitch attached.
 
 [Your name]
 Geecom Learning | geecomlearning.com
 
-**Notes:** Give before asking. The sample offer is low friction. If they ask to see a sample, send the portfolio at geecomlearning.com and book a call.
+**Notes:** Give before asking. The sample offer is low friction. If they respond, walk them through the portfolio at geecomlearning.com and book a call.
 
 ---
 
@@ -602,7 +588,7 @@ Wishing you a good [quarter / year],
 [Your name]
 Geecom Learning
 
-**Notes:** Never more than 4 touches to a cold prospect. High reply rate — people respond to being treated respectfully. After this, move contact to the nurture list (monthly newsletter or LinkedIn connection).
+**Notes:** Never more than 4 touches to a cold prospect. After this, move contact to the nurture list (monthly newsletter or LinkedIn connection).
 
 ---
 

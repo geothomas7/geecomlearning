@@ -29,4 +29,10 @@ title = "Geecom Learning GEO Audit Report — April 2026"
 id = "OQFaqAduEd2Xk2bxlKh5K"
 uri = "file://marketing-strategy.md"
 type = "text"
-title = "Geecom Learning — Full Marketing Strategy"
+title = "Marketing Strategy — We/Us Version"
+
+[[outputs]]
+id = "QKtLPc-AbWNfIt7SDBfc5"
+uri = "file://marketing-strategy-honest.md"
+type = "text"
+title = "Marketing Strategy — Honest Version (No Fabricated Stories)"
