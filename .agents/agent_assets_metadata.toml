@@ -24,3 +24,9 @@ id = "bIU1xswKWOATFDPJKyjRq"
 uri = "file://.local/geecom-geo-audit-2026.pdf"
 type = "pdf"
 title = "Geecom Learning GEO Audit Report — April 2026"
+
+[[outputs]]
+id = "OQFaqAduEd2Xk2bxlKh5K"
+uri = "file://marketing-strategy.md"
+type = "text"
+title = "Geecom Learning — Full Marketing Strategy"
