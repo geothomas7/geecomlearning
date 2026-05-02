@@ -36,3 +36,9 @@ id = "QKtLPc-AbWNfIt7SDBfc5"
 uri = "file://marketing-strategy-honest.md"
 type = "text"
 title = "Marketing Strategy — Honest Version (No Fabricated Stories)"
+
+[[outputs]]
+id = "zVQm8Pa-D7JoomI5-Exf9"
+uri = "file://resource-article-guidelines.md"
+type = "text"
+title = "Geecom Learning — Resource Article Guidelines (External Contributors)"
