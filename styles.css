@@ -994,6 +994,39 @@ a.resource-card-link:hover {
 }
 .article-bluf p { margin: 0; font-size: .97rem; }
 
+/* Expert/author commentary pull-quote — used to add named-source authority signals
+   for both human readers and AI engines. Self-contained quotable block. */
+.article-pullquote {
+  background: #fff;
+  border-left: 4px solid var(--navy);
+  border-radius: .5rem;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  font-style: normal;
+  box-shadow: 0 1px 3px rgba(19, 35, 71, 0.06);
+}
+.article-pullquote .pullquote-label {
+  display: block;
+  font-size: .82rem;
+  font-weight: 800;
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-bottom: .5rem;
+}
+.article-pullquote p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+.article-pullquote footer {
+  margin-top: .75rem;
+  font-size: .85rem;
+  color: var(--muted);
+  font-style: normal;
+}
+
 /* Cost table */
 .cost-table-wrapper {
   overflow-x: auto;

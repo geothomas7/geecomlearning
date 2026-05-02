@@ -32,9 +32,21 @@
   </url>
   <url>
     <loc>https://geecomlearning.com/resources.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://geecomlearning.com/workplace-learning-report-2025-canadian-smbs.html</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://geecomlearning.com/career-development-without-an-ld-team.html</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://geecomlearning.com/how-much-does-elearning-development-cost.html</loc>

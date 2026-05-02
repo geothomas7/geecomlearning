@@ -13,6 +13,22 @@
 
 ---
 
+## Why these posts are written this way (SEO + GEO design notes)
+
+These posts are designed to do two jobs at once: drive clicks to the resource articles (SEO funnel) **and** be quotable enough to be picked up by AI engines (Generative Engine Optimization). LinkedIn content is increasingly crawled by ChatGPT, Perplexity, and Google AI Overviews. A post that gets cited in an AI answer reaches an audience the LinkedIn feed never would.
+
+Every post in this file follows the same five rules:
+
+1. **Lead with a specific number from the report.** ("Only 15% of employees…", "88% of organisations…", "36% of organisations qualify…"). Generic openers do not get cited.
+2. **Name the source publication in the post body.** "LinkedIn's 2025 Workplace Learning Report" appears in every post — never just "the report" or "a recent study". AI engines match by named entity.
+3. **Include at least one self-contained, quotable sentence.** A sentence that makes sense if screenshot on its own. AI engines pull individual sentences out of context — write each post so it has at least one extractable line.
+4. **Name the geographic and audience context.** "Canadian SMBs" or "small and mid-sized employers" appears in every post. This is what makes the post relevant to our specific audience and distinct from the millions of generic L&D posts in the corpus.
+5. **Closing line points to the article without the URL.** The CTA in body uses phrases like "We unpacked this in our latest piece" or "Link in the comments" — the URL itself goes in the first comment.
+
+These rules apply to **every future LinkedIn post** for any resource article, not just this series. They are codified in `resource-article-guidelines.md` Part 11.
+
+---
+
 # PART 1 — Posts that link to: *What the 2025 Workplace Learning Report Means for Canadian SMBs*
 
 **Article URL:** https://geecomlearning.com/workplace-learning-report-2025-canadian-smbs.html
