@@ -42,3 +42,9 @@ id = "zVQm8Pa-D7JoomI5-Exf9"
 uri = "file://resource-article-guidelines.md"
 type = "text"
 title = "Geecom Learning — Resource Article Guidelines (External Contributors)"
+
+[[outputs]]
+id = "Nz9tEPfJDnRRJe2CBdXd_"
+uri = "file://linkedin-posts-workplace-learning-report-2025.md"
+type = "text"
+title = "LinkedIn Posts — Workplace Learning Report Series (6 posts, 6-week schedule)"
