@@ -1,0 +1,47 @@
+Finding the right subject matter expert—especially one with a specific pedigree, like a statistician from a recognized government or academic institution—is a classic sourcing challenge in corporate Learning & Development.
+
+While there are marketplaces out there, the L&D industry relies on a mix of specialized platforms, broker agencies, and direct outreach depending on the level of prestige required. Here is how corporate teams typically source these experts.
+
+1. Direct Institutional B2B Outreach (The "StatCan" Route)
+
+If an organization wants a trainer from a specific, highly recognized institution, they almost always bypass marketplaces entirely.
+
+Institutions know their expertise is valuable and usually have an entire department dedicated to B2B corporate training:
+
+Government/Regulatory Bodies: To use your example, Statistics Canada actually has its own dedicated Statistical Training Service. Organizations can contact them directly to hire their experts for customized corporate workshops or foundational statistical literacy training.
+
+University Executive Education: If a corporate team wants a recognized academic, they will reach out to the "Executive Education" or "Corporate Learning" arms of major universities (e.g., UBC Sauder or SFU Executive Education if looking locally on the West Coast, or Rotman in Toronto). These departments specifically curate their professors to deliver corporate workshops.
+
+2. Expert Networks (For High-Level Specialists)
+
+When a company needs a niche expert (like a former chief statistician or a PhD-level data scientist) rather than a career "trainer," they often turn to Expert Networks. These act as high-end brokers rather than traditional open marketplaces.
+
+GLG (Gerson Lehrman Group) & AlphaSights: These are the heavyweights. You give them a brief (e.g., "We need a 2-day workshop on predictive analytics led by a recognized statistician"), and they tap into their massive, global databases to find and vet the perfect expert for the job.
+
+Guidepoint: Similar to GLG, they connect organizations with vetted subject matter experts for consultations, which often evolve into custom training sessions.
+
+3. Curated L&D Consulting Marketplaces
+
+If you are looking for independent professionals who blend consulting with corporate training, there are a few high-end marketplaces designed for this:
+
+Catalant: This is a premium marketplace for finding high-level independent consultants, subject matter experts, and boutique firms. It’s an excellent place to find seasoned professionals who can come in, assess a corporate need, and deliver rigorous training.
+
+Hone: Focuses specifically on live, instructor-led training. While they are known for leadership and soft skills, their model relies on a vetted network of expert facilitators.
+
+Upwork (Enterprise / Pro): While Upwork is famous for general freelancing, their "Enterprise" tier is heavily used by corporate teams to find highly rated, vetted instructional designers and subject matter expert trainers.
+
+4. The Role of LinkedIn
+
+You hit the nail on the head—LinkedIn is effectively the world's largest unofficial trainer marketplace.
+
+Corporate recruiters and L&D specialists use it aggressively because it allows them to verify a trainer’s pedigree instantly.
+
+Direct Sourcing: Teams will run Boolean searches on LinkedIn Recruiter for titles like "Adjunct Professor Statistics" AND "Corporate Trainer" or "Freelance Facilitator."
+
+LinkedIn Services: Independent trainers use the "Providing Services" feature on their profiles to list themselves as available for corporate training, making them searchable to companies looking for vendors.
+
+5. Managed Learning Providers (The Mega-Brokers)
+
+For very large organizations that need training constantly, they rarely hunt for individual trainers. Instead, they hire companies like GP Strategies, NIIT, or Skillsoft. These companies act as vendor management systems; they maintain private rosters of thousands of vetted trainers and deploy them to their corporate clients on demand.
+
+Are you currently trying to source a trainer for a specific internal project, or are you looking at this from the perspective of a trainer wanting to list their own services?
