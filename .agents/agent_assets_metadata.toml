@@ -48,3 +48,9 @@ id = "Nz9tEPfJDnRRJe2CBdXd_"
 uri = "file://linkedin-posts-workplace-learning-report-2025.md"
 type = "text"
 title = "LinkedIn Posts — Workplace Learning Report Series (6 posts, 6-week schedule)"
+
+[[outputs]]
+id = "ltn67whXRqciq0vTnVD6w"
+uri = "file://trainer-sourcing-page-brief.md"
+type = "text"
+title = "Trainer Sourcing — Page Brief"
