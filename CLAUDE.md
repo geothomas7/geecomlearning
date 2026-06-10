@@ -11,7 +11,7 @@ This is a single-page static marketing website for Geecom Learning, an e-learnin
 ## Tech stack
 - Plain HTML5 and CSS3 — no build tools, no frameworks, no npm
 - Vanilla JavaScript (inline in index.html) handles the contact form mailto submission
-- No backend; the contact form submits via mailto to hello@geecomlearning.com
+- No backend; the contact form submits via mailto to info@geecomlearning.com
 
 ## How to run locally
 Open `index.html` directly in a browser. No server or build step is needed.
@@ -24,7 +24,7 @@ Open `index.html` directly in a browser. No server or build step is needed.
 - BEM-style CSS class naming is used (e.g. `.site-header`, `.nav-links`, `.card-grid`)
 
 ## Contact email
-hello@geecomlearning.com
+info@geecomlearning.com
 
 ## Sections on the page (in order)
 1. Hero — headline + CTA

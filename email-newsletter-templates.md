@@ -2,7 +2,7 @@
 ## Welcome Email + 3 Issue Templates
 
 **Usage notes:**
-- Send from hello@geecomlearning.com or a dedicated newsletter address (e.g., newsletter@geecomlearning.com)
+- Send from info@geecomlearning.com or a dedicated newsletter address (e.g., newsletter@geecomlearning.com)
 - All links should be tracked (UTM parameters) to measure clicks, not opens
 - Include your physical mailing address in the footer (CASL compliance)
 - Include a one-click unsubscribe in every email footer
@@ -39,7 +39,7 @@ Talk soon,
 
 [Sender name]
 Geecom Learning
-hello@geecomlearning.com
+info@geecomlearning.com
 geecomlearning.com
 Vancouver, British Columbia, Canada
 
@@ -84,7 +84,7 @@ Geecom Learning
 
 ---
 
-*Geecom Learning | Vancouver, BC, Canada | hello@geecomlearning.com | geecomlearning.com*
+*Geecom Learning | Vancouver, BC, Canada | info@geecomlearning.com | geecomlearning.com*
 *[Unsubscribe]*
 
 ---
@@ -126,7 +126,7 @@ Geecom Learning
 
 ---
 
-*Geecom Learning | Vancouver, BC, Canada | hello@geecomlearning.com | geecomlearning.com*
+*Geecom Learning | Vancouver, BC, Canada | info@geecomlearning.com | geecomlearning.com*
 *[Unsubscribe]*
 
 ---
@@ -166,7 +166,7 @@ Geecom Learning
 
 ---
 
-*Geecom Learning | Vancouver, BC, Canada | hello@geecomlearning.com | geecomlearning.com*
+*Geecom Learning | Vancouver, BC, Canada | info@geecomlearning.com | geecomlearning.com*
 *[Unsubscribe]*
 
 ---

@@ -120,7 +120,7 @@ I've sent a few notes your way — I'll stop following up now so I'm not crowdin
 
 If [Company]'s compliance training situation changes — a new hire surge, an upcoming audit, a new location opening — feel free to reach out. We're usually able to turn a full programme around in 4–6 weeks.
 
-You can find us at geecomlearning.com or email hello@geecomlearning.com any time.
+You can find us at geecomlearning.com or email info@geecomlearning.com any time.
 
 Wishing you a good [quarter / year],
 

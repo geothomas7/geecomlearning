@@ -4,7 +4,7 @@
 
 ---
 
-This document covers everything an external writer or developer needs to produce a resource article that matches the existing Geecom Learning site — visually, structurally, and in voice. Follow it exactly. If something is unclear, email hello@geecomlearning.com before making assumptions.
+This document covers everything an external writer or developer needs to produce a resource article that matches the existing Geecom Learning site — visually, structurally, and in voice. Follow it exactly. If something is unclear, email info@geecomlearning.com before making assumptions.
 
 ---
 
@@ -501,7 +501,7 @@ Copy this block exactly on every article page. Do not modify any content, links,
           </nav>
           <nav class="footer-nav-col" aria-label="Legal and contact">
             <p class="footer-col-head">Contact &amp; Legal</p>
-            <a href="mailto:hello@geecomlearning.com">hello@geecomlearning.com</a>
+            <a href="mailto:info@geecomlearning.com">info@geecomlearning.com</a>
             <a href="privacy.html">Privacy Policy</a>
             <a href="terms.html">Terms and Conditions</a>
             <a href="https://www.linkedin.com/company/geecom-learning" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -903,7 +903,7 @@ When delivering a completed article, submit:
 
 ## Contact for Questions
 
-**hello@geecomlearning.com**
+**info@geecomlearning.com**
 Geecom Learning | Vancouver, BC | geecomlearning.com
 
 ---
